@@ -1,0 +1,37 @@
+curl --location --request POST 'http://localhost:8080/v1/cauth' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'Authorization: Bearer @@@@@@@@@@@@@@@@wqeqweqe' \
+--data-raw '{
+  "email":"admin",
+  "password":"admin"
+
+}'
+
+
+---------------------------------
+
+
+curl --location --request GET 'http://localhost:8080/v1/task1' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJBRE1JTiIsImNvbXBhbnkiOiJBYmNUZWNoIiwiZW1haWwiOiJhZG1pbiIsImlhdCI6MTcwMjYwMjQyMSwiZXhwIjoxNzAyNjA0MjIxfQ.iGtLFPDwqRV-Ugx7yiZHvdB9KOfqdPVC8ynYDQ5eyGQMPcczajr-PBYkvLBB1Zig7pubTbMeXbGnWeoN1CBV0Q' \
+--data-raw '{
+  "email":"admin",
+  "password":"admin"
+
+}'
+
+
+---------------------------------
+
+
+curl --location --request GET 'http://localhost:8080/v1/task2?year=2011' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJBRE1JTiIsImNvbXBhbnkiOiJBYmNUZWNoIiwiZW1haWwiOiJhZG1pbiIsImlhdCI6MTcwMjYwMjQyMSwiZXhwIjoxNzAyNjA0MjIxfQ.iGtLFPDwqRV-Ugx7yiZHvdB9KOfqdPVC8ynYDQ5eyGQMPcczajr-PBYkvLBB1Zig7pubTbMeXbGnWeoN1CBV0Q' \
+--data-raw '{
+  "email":"admin",
+  "password":"admin"
+
+}'
